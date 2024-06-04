@@ -58,4 +58,16 @@
 	  <Folder Include="Repository\" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="Views\HabitsListView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\HomeView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\NewHabitsView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
