@@ -65,7 +65,7 @@
 	  <MauiXaml Update="Views\HomeView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\NewHabitsView.xaml">
+	  <MauiXaml Update="Views\NewHabitView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

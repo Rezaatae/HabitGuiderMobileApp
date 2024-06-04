@@ -1,4 +1,5 @@
 ﻿using HabitGuiderMobileApp.Data;
+using HabitGuiderMobileApp.ViewModels;
 using HabitGuiderMobileApp.Views;
 using Microsoft.Extensions.Logging;
 
@@ -22,9 +23,13 @@ public static class MauiProgram
 #endif
 		builder.Services.AddSingleton<DatabaseContext>();
 
-		builder.Services.AddSingleton<HomeView>();
+        builder.Services.AddSingleton<HomeViewModel>();
+        builder.Services.AddSingleton<HabitsListViewModel>();
+        builder.Services.AddSingleton<NewHabitViewModel>();
+
+        builder.Services.AddSingleton<HomeView>();
 		builder.Services.AddSingleton<HabitsListView>();
-		builder.Services.AddSingleton<NewHabitsView>();
+		builder.Services.AddSingleton<NewHabitView>();
 
 		return builder.Build();
 	}

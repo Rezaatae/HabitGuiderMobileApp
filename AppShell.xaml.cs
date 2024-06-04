@@ -9,6 +9,6 @@ public partial class AppShell : Shell
 		InitializeComponent();
         Routing.RegisterRoute(nameof(HomeView), typeof(HomeView));
         Routing.RegisterRoute(nameof(HabitsListView), typeof(HabitsListView));
-        Routing.RegisterRoute(nameof(NewHabitsView), typeof(NewHabitsView));
+        Routing.RegisterRoute(nameof(NewHabitView), typeof(NewHabitView));
     }
 }

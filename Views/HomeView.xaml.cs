@@ -1,9 +1,14 @@
+using HabitGuiderMobileApp.ViewModels;
+
 namespace HabitGuiderMobileApp.Views;
 
 public partial class HomeView : ContentPage
 {
-	public HomeView()
+	private readonly HomeViewModel _viewModel;
+	public HomeView(HomeViewModel vm)
 	{
 		InitializeComponent();
+		BindingContext = vm;
+		_viewModel = vm;
 	}
 }
