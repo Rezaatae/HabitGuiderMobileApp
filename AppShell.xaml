@@ -11,9 +11,8 @@
         <Tab Title="Home">
             <ShellContent ContentTemplate="{DataTemplate views:HomeView}" Route="HomeView" />
         </Tab>
-        <Tab>
+        <Tab Title="Habits">
             <ShellContent ContentTemplate="{DataTemplate views:HabitsListView}" Route="HabitsListView" />
         </Tab>
     </TabBar>
-
 </Shell>
