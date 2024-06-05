@@ -11,4 +11,10 @@ public partial class HabitsListView : ContentPage
 		BindingContext = vm;
         _viewModel = vm;
 	}
+
+	protected async override void OnAppearing()
+	{
+		base.OnAppearing();
+		await _viewModel.LoadHabitsAsync();
+	}
 }
