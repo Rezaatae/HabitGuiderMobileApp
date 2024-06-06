@@ -51,7 +51,6 @@
                                    TextColor="White"/>
                         </Grid>
                     </DataTemplate>
-
                 </CollectionView.ItemTemplate>
                 <CollectionView.EmptyView>
                     <ContentView>
@@ -60,9 +59,11 @@
                             <Label Text="No Habits Found"
                                    TextColor="White"
                                    FontSize="18"
+                                   HorizontalOptions="Center"
                                    FontAttributes="Bold"/>
                             <Label Text="create a habit using the + button on the toolbar"
-                                   TextColor="White"/>
+                                   TextColor="White"
+                                   HorizontalOptions="Center"/>
                         </VerticalStackLayout>
                     </ContentView>
                 </CollectionView.EmptyView>

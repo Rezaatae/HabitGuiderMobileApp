@@ -9,6 +9,7 @@ namespace HabitGuiderMobileApp.Model
         public string Name { get; set; }
         public string Description { get; set; }
         public string Type { get; set; }
+        public string Group { get; set; }
         public int Target { get; set; }
         public string UnitName { get; set; }
         public string Frequency { get; set; }
